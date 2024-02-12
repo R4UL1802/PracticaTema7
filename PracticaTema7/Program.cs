@@ -7,7 +7,6 @@ namespace PracticaTema7
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //Hola tu mamama hsahFUSAlf
         }
     }
 }
