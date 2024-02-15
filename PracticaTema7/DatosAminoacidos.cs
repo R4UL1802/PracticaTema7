@@ -28,13 +28,20 @@ namespace PracticaTema7
             {TipoAminoacido.Alanina, "Alanina" },
 
 
-        }
+        };
         public static Dictionary<TipoAminoacido, string> nombrecorto = new Dictionary<TipoAminoacido, string>()
         {   //vas poniendo las abreviaturas 
-            { TipoAminoacido.Valina, "VAL"}, 
+            { TipoAminoacido.Valina, "VAL"},
 
 
-} 
-        public static Dictionary<TipoAminoacido, >
+};
+        public static Dictionary<TipoAminoacido, Dictionary<string, int>> _formulas = new Dictionary<TipoAminoacido, Dictionary<string, int>>
+        {
+
+            {TipoAminoacido.Alanina, new Dictionary<string, int> { {"C",3} ,{"H",7},{"NO",2}} },
+            {TipoAminoacido.Arginina, new Dictionary<string, int> { {"C",6} ,{"H",14},{"N",4}, {"O",2} } },
+
+        };
+
         }
 }
