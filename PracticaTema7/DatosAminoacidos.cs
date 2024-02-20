@@ -32,7 +32,7 @@ namespace PracticaTema7
             {TipoAminoacido.Arginina, true },
             //ahora los no esenciales
             {TipoAminoacido.Alanina, false },
-            /*{TipoAminoacido.Prolina, false },
+            {TipoAminoacido.Prolina, false },
             {TipoAminoacido.Glicina, false },
             {TipoAminoacido.Serina, false },
             {TipoAminoacido.Cisteina, false },
@@ -40,7 +40,7 @@ namespace PracticaTema7
             {TipoAminoacido.Glutamina, false },
             {TipoAminoacido.Tirosina, false },
             {TipoAminoacido.Accido Aspartico, false },
-            {TipoAminoacido.Accido Glutamico, false },*/
+            {TipoAminoacido.Accido Glutamico, false },
 
         };
 
