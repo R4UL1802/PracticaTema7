@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PracticaTema7
 {
-    class Aminoacido
+    public class Aminoacido
     {
         public string _nombre;
         public string _abreviaturaLarga;
@@ -103,11 +103,19 @@ namespace PracticaTema7
             _abreviaturaLarga = DatosAminoacidos.nombrecorto[tipo];
             _abreviaturaCorta=DatosAminoacidos.letraAminoacido[tipo];
             _pesoMolecular = DatosAminoacidos.peso[tipo];
-            _atomosC = DatosAminoacidos.formulas["C",tipo];
-            _atomosH =
-            _atomosN =
-            _atomosO =
-            _atomosS = ;
+            _esEsencial = DatosAminoacidos.esencialOnoEsencial[tipo];
+            Dictionary<TipoAminoacido, Dictionary<string, int>> diccionario = DatosAminoacidos.formulas;
+            Dictionary<string,int> diccionarioInterno = diccionario[tipo];
+            int numeroDeCarbonos =  diccionarioInterno["C"];
+            int nDeH = diccionarioInterno["H"];
+            int nDeN = diccionarioInterno["N"];
+            int nDeO = diccionarioInterno["O"];
+            int nDeS = diccionarioInterno["S"];
+            _atomosC = DatosAminoacidos.formulas[tipo]["C"];
+            _atomosH = DatosAminoacidos.formulas[tipo]["H"];
+            _atomosN = DatosAminoacidos.formulas[tipo]["N"];
+            _atomosO = DatosAminoacidos.formulas[tipo]["O"];
+            _atomosS = DatosAminoacidos.formulas[tipo]["S"];
         }
         public override string ToString()
         {

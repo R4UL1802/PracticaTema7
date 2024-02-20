@@ -12,7 +12,7 @@ namespace PracticaTema7
     }
 
 
-    class DatosAminoacidos
+    public class DatosAminoacidos
     {
         
         public static Dictionary<TipoAminoacido, string> letraAminoacido = new Dictionary<TipoAminoacido, string> {
