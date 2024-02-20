@@ -48,6 +48,15 @@ namespace PracticaTema7
             {TipoAminoacido.Arginina, "Arginina" },
             //En esta segunda pon no esenciales
             {TipoAminoacido.Alanina, "Alanina" },
+            /*{TipoAminoacido.Prolina, “Prolina”},
+            {TipoAminoacido.Glicina, “Glicina”},
+            {TipoAminoacido.Serina, “Serina”},
+            {TipoAminoacido.Cisteina, “Cisteina”},
+            {TipoAminoacido.Asparagina, “Asparagina”},
+            {TipoAminoacido.Glutamina, “Glutamina”},
+            {TipoAminoacido.Tirosina, “Tirosina”},
+            {TipoAminoacido.Accido Aspartico, “Accido Aspartico”},
+            {TipoAminoacido.Accido Glutamico, “Accido Glutamico”},*/
 
 
         };
