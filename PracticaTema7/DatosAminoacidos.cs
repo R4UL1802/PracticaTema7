@@ -55,8 +55,8 @@ namespace PracticaTema7
             {TipoAminoacido.Asparagina, “Asparagina”},
             {TipoAminoacido.Glutamina, “Glutamina”},
             {TipoAminoacido.Tirosina, “Tirosina”},
-            {TipoAminoacido.Accido Aspartico, “Accido Aspartico”},
-            {TipoAminoacido.Accido Glutamico, “Accido Glutamico”},*/
+            {TipoAminoacido.Accido Aspartico, “AccidoAspartico”},
+            {TipoAminoacido.Accido Glutamico, “AccidoGlutamico”},*/
 
 
         };
