@@ -32,6 +32,16 @@ namespace PracticaTema7
             {TipoAminoacido.Arginina, true },
             //ahora los no esenciales
             {TipoAminoacido.Alanina, false },
+            /*{TipoAminoacido.Prolina, false },
+            {TipoAminoacido.Glicina, false },
+            {TipoAminoacido.Serina, false },
+            {TipoAminoacido.Cisteina, false },
+            {TipoAminoacido.Asparagina, false },
+            {TipoAminoacido.Glutamina, false },
+            {TipoAminoacido.Tirosina, false },
+            {TipoAminoacido.Accido Aspartico, false },
+            {TipoAminoacido.Accido Glutamico, false },*/
+
         };
 
         public static Dictionary<TipoAminoacido, string> nombresaminoacidos = new Dictionary<TipoAminoacido, string>
