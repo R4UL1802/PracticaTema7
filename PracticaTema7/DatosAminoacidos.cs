@@ -127,8 +127,27 @@ namespace PracticaTema7
         public static Dictionary<TipoAminoacido, float> peso = new Dictionary<TipoAminoacido, float>
         {
             //the same
-            {TipoAminoacido.Alanina, 89.09f },
             {TipoAminoacido.Arginina, 174.20f },
+	    {TipoAminoacido.Valina, "119.15f"},
+     	    {TipoAminoacido.Leucina, "131.17f"},
+            {TipoAminoacido.Treonina, "119.12f" },
+      	    {TipoAminoacido.Lisina, "146.19f" },
+      	    {TipoAminoacido.Triptofano, "204.23f" },
+            {TipoAminoacido.Histidina, "155.15f" },
+            {TipoAminoacido.Fenilalanina, "165.19f" },
+            {TipoAminoacido.Isoleucina, "131.17f" },
+	    {TipoAminoacido.Metionina, “149.21f”},
+	    //En esta segunda pon no esenciales
+	    {TipoAminoacido.Alanina, 89.09f },
+	    {TipoAminoacido.Prolina, “115.13f”},
+	    {TipoAminoacido.Glicina, “75.07f”},
+	    {TipoAminoacido.Serina, “105.09f”},
+	    {TipoAminoacido.Cisteina, “121.16f”},
+	    {TipoAminoacido.Asparagina, “132.12f”},
+	    {TipoAminoacido.Glutamina, “146.14f”},
+	    {TipoAminoacido.Tirosina, “181.19f”},
+	    {TipoAminoacido.Accido Aspartico, “133.10f”},
+	    {TipoAminoacido.Accido Glutamico, “147.13f”},
         };
     }
 }
