@@ -73,6 +73,27 @@ namespace PracticaTema7
         public static Dictionary<TipoAminoacido, string> nombrecorto = new Dictionary<TipoAminoacido, string>
         {   //vas poniendo las abreviaturas 
             { TipoAminoacido.Valina, "VAL"},
+            /*{TipoAminoacido.Leucina, "Leu"},
+        	{TipoAminoacido.Treonina, "Thr" },
+          	{TipoAminoacido.Lisina, "Lys" },
+          	{TipoAminoacido.Triptofano, "Trp" },
+            {TipoAminoacido.Histidina, "His" },
+            {TipoAminoacido.Fenilalanina, "Phe" },
+            {TipoAminoacido.Isoleucina, "Ile" },
+            {TipoAminoacido.Arginina, "Arg" },
+	        {TipoAminoacido.Meteonina, “Met”},
+	         //En esta segunda pon no esenciales
+            {TipoAminoacido.Alanina, "Ala" },
+            {TipoAminoacido.Prolina, “Pro”},
+            {TipoAminoacido.Glicina, “Gly”},
+            {TipoAminoacido.Serina, “Ser”},
+            {TipoAminoacido.Cisteina, “Cys”},
+            {TipoAminoacido.Asparagina, “Asn”},
+            {TipoAminoacido.Glutamina, “Gln”},
+            {TipoAminoacido.Tirosina, “Tyr”},
+            {TipoAminoacido.Accido Aspartico, “Asp”},
+            {TipoAminoacido.Accido Glutamico, “Glu”},*/
+
         };
 
 
