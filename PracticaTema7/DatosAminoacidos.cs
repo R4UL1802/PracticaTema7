@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -104,6 +104,12 @@ namespace PracticaTema7
            };
         public static Dictionary<TipoAminoacido, string> letraAminoacido = new Dictionary<TipoAminoacido, string> {
         {TipoAminoacido.Alanina, "A"},
+         {TipoAminoacido.Valina, "V" },
+            {TipoAminoacido.Leucina, "L" },
+            {TipoAminoacido.Treonina, "T" },
+            {TipoAminoacido.Lisina, "K" },
+            {TipoAminoacido.Triptofano, "W" },
+            {TipoAminoacido.Histidina, "H" },
         };
         public static Dictionary<TipoAminoacido, bool> esencialOnoEsencial = new Dictionary<TipoAminoacido, bool> {
            //esenciales
@@ -159,7 +165,7 @@ namespace PracticaTema7
         };
         public static Dictionary<TipoAminoacido, string> nombrecorto = new Dictionary<TipoAminoacido, string>
         {   //vas poniendo las abreviaturas 
-            { TipoAminoacido.Valina, "VAL"},
+            { TipoAminoacido.Valina, "Val"},
             {TipoAminoacido.Leucina, "Leu"},
             {TipoAminoacido.Treonina, "Thr" },
             {TipoAminoacido.Lisina, "Lys" },
